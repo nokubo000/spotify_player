@@ -2,16 +2,16 @@
   <h2> Arduino Spotify Player </h2>
 </div>
 
-## 💡 Overview
+## Overview
 The Arduino Spotify Player allows users to scan a RFID card which sends the card’s Spotify code to the Spotify API to play the song/album on Spotify. 
 It also receives information about the current song playing on Spotify and displays it on an LCD screen. Key features include:
 
-## ✨ Features
+## Features
 
-- **📱 Play Songs/Albums on Spotify:** Plays the given song or album on any device with the Spotify app open and logged into the associated API's account.
-- **🔍 Display Current Song Information:** Displays the song title and artist(s) name on an 16x2 LCD screen for the current song playing on Spotify.
-- **🎯 Reliability & Precise Timing:** Built for reliability and precise timing for user inputs and outputs.
-- **🔧 Customization & Flexibility:** Tailor the Arduino Spotify Player to your music taste by customizing the RFID cards to your favorite songs and albums on Spotify.
+- **Play Songs/Albums on Spotify:** Plays the given song or album on any device with the Spotify app open and logged into the associated API's account.
+- **Display Current Song Information:** Displays the song title and artist(s) name on an 16x2 LCD screen for the current song playing on Spotify.
+- **Reliability & Precise Timing:** Built for reliability and precise timing for user inputs and outputs.
+- **Customization & Flexibility:** Tailor the Arduino Spotify Player to your music taste by customizing the RFID cards to your favorite songs and albums on Spotify.
 
 ## Tech Stack
 
@@ -26,7 +26,7 @@ It also receives information about the current song playing on Spotify and displ
 - **RFID**: Arduino library for reading/writing RFID values.
 - **LiquidCrystal**: Arduino library for writing to the LCD screen.
 
-## 📖 Sources and external API's
+## Sources and external API's
 
 - [Spotify for Developers Web API](https://developer.spotify.com/) to create tokens to use the Spotify API and read API documentation.
 - [spotipy](https://spotipy.readthedocs.io/en/2.26.0/) to use the lightweight Python library for the Spotify Web API.
@@ -37,4 +37,26 @@ It also receives information about the current song playing on Spotify and displ
 - [Arduino Interfacing With LCD Without Potentiometer](https://www.instructables.com/Arduino-Interfacing-With-LCD-Without-Potentiometer/) Example of wiring 16x2 LCD with Arduino without a potentiometer.
 - [ArduinoJSON](https://arduinojson.org/v6/) ArduinoJSON library documentation and examples.
 - [Sending JSON over serial in Python to Arduino](https://stackoverflow.com/questions/55698070/sending-json-over-serial-in-python-to-arduino) Example of how to communicate with Arduino and Python using Serial communication.
+- [GitHub Readme Template: For Personal Projects](https://dev.to/sumonta056/github-readme-template-for-personal-projects-3lka) Template used to create Readme documentation.
 
+## Contributing
+
+Contributions are welcomed and can be made by following these steps:
+
+1. **Fork the repository.**
+2. **Create a new branch** (`git checkout -b feature/your-feature-name`).
+3. **Make your changes** and commit them (`git commit -m 'Add some feature'`).
+4. **Push to the branch** (`git push origin feature/your-feature-name`).
+5. **Open a pull request**.
+
+## 🐛 Issues
+
+If you encounter any issues while using or setting up the project, please check the [Issues](https://github.com/nokubo000/spotify_player/issues) section to see if it has already been reported. If not, feel free to open a new issue detailing the problem.
+
+When reporting an issue, please include:
+
+- A clear and descriptive title.
+- A detailed description of the problem.
+- Steps to reproduce the issue.
+- Any relevant logs or screenshots.
+- The environment in which the issue occurs (OS, browser, Python version, Arduino version, etc.).
