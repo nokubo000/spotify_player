@@ -1,5 +1,5 @@
 <div align="center">
-  <h2> Arduino Spotify Player : Readme </h2>
+  <h2> Arduino Spotify Player </h2>
 </div>
 
 ## 💡 Overview
@@ -21,9 +21,20 @@ It also receives information about the current song playing on Spotify and displ
 - **Spotipy**: A lightweight Python library for the Spotify Web API, used to get full access to all of the music data provided by the Spotify platform.
 - **FreeRTOS**: Arduino library that is a class of RTOS. Designed to be small enough to be run on a microcontroller.
 - **KiCAD**: Open source PCB design / electronics CAD software. 
-- **JSON**: (JavaScript Object Notation) A lightweight format for storing and transporting data
+- **JSON**: (JavaScript Object Notation) A lightweight format for storing and transporting data.
 - **Serial Communication**: Transmitting data sequentially, sending one single bit at a time over a single wire, cable, or optical medium.
-- **RFID**: Arduino library for reading/writing RFID values
-- **LiquidCrystal**: Arduino library for writing to the LCD screen
+- **RFID**: Arduino library for reading/writing RFID values.
+- **LiquidCrystal**: Arduino library for writing to the LCD screen.
 
 ## 📖 Sources and external API's
+
+- [Spotify for Developers Web API](https://developer.spotify.com/) to create tokens to use the Spotify API and read API documentation.
+- [spotipy](https://spotipy.readthedocs.io/en/2.26.0/) to use the lightweight Python library for the Spotify Web API.
+- [How to Use Spotify's API with Python | Write a Program to Display Artist, Tracks, and More](https://www.youtube.com/watch?v=WAmEZBEeNmg) Video example of how to use the Spotipy API.
+- [Arduino FreeRTOS](https://docs.arduino.cc/libraries/freertos/) Arduino FreeRTOS library documentation.
+- [Interfacing RFID-RC522 With Arduino MEGA a Simple Sketch](https://www.instructables.com/Interfacing-RFID-RC522-With-Arduino-MEGA-a-Simple-/) Arduino RFID library examples.
+- [Liquid Crystal Displays (LCD) with Arduino](https://docs.arduino.cc/learn/electronics/lcd-displays/) Arduino LiquidCrystal library documentation and examples.
+- [Arduino Interfacing With LCD Without Potentiometer](https://www.instructables.com/Arduino-Interfacing-With-LCD-Without-Potentiometer/) Example of wiring 16x2 LCD with Arduino without a potentiometer.
+- [ArduinoJSON](https://arduinojson.org/v6/) ArduinoJSON library documentation and examples.
+- [Sending JSON over serial in Python to Arduino](https://stackoverflow.com/questions/55698070/sending-json-over-serial-in-python-to-arduino) Example of how to communicate with Arduino and Python using Serial communication.
+
